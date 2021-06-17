@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 28934ccc640808240a9f838a0c2ea03a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmL
+    100002: ArmR
+    100004: Breath
+    100006: Bust
+    100008: Effect1
+    100010: Effect2
+    100012: EnvironmentAmbientLight
+    100014: FootL
+    100016: FootR
+    100018: GamemodelShape
+    100020: HandL
+    100022: HandR
+    100024: Head
+    100026: Hip
+    100028: HornLa
+    100030: HornLb1
+    100032: HornLb2
+    100034: HornLb3
+    100036: HornRa
+    100038: HornRb1
+    100040: HornRb2
+    100042: HornRb3
+    100044: Jaw
+    100046: KneeL
+    100048: KneeR
+    100050: LegL
+    100052: LegR
+    100054: Neck1
+    100056: Neck2
+    100058: Neck3
+    100060: Neck4
+    100062: Rot
+    100064: Shot
+    100066: ShoulderL
+    100068: ShoulderR
+    100070: Tail1
+    100072: Tail2
+    100074: Tail3
+    100076: Tail4
+    100078: Tail5
+    100080: Tail6
+    100082: Tail7
+    100084: Tail8
+    100086: ToeL
+    100088: ToeR
+    100090: Trans
+    100092: Waist
+    100094: //RootNode
+    100096: WingL1
+    100098: WingL2
+    100100: WingL3
+    100102: WingL4
+    100104: WingR1
+    100106: WingR2
+    100108: WingR3
+    100110: WingR4
+    400000: ArmL
+    400002: ArmR
+    400004: Breath
+    400006: Bust
+    400008: Effect1
+    400010: Effect2
+    400012: EnvironmentAmbientLight
+    400014: FootL
+    400016: FootR
+    400018: GamemodelShape
+    400020: HandL
+    400022: HandR
+    400024: Head
+    400026: Hip
+    400028: HornLa
+    400030: HornLb1
+    400032: HornLb2
+    400034: HornLb3
+    400036: HornRa
+    400038: HornRb1
+    400040: HornRb2
+    400042: HornRb3
+    400044: Jaw
+    400046: KneeL
+    400048: KneeR
+    400050: LegL
+    400052: LegR
+    400054: Neck1
+    400056: Neck2
+    400058: Neck3
+    400060: Neck4
+    400062: Rot
+    400064: Shot
+    400066: ShoulderL
+    400068: ShoulderR
+    400070: Tail1
+    400072: Tail2
+    400074: Tail3
+    400076: Tail4
+    400078: Tail5
+    400080: Tail6
+    400082: Tail7
+    400084: Tail8
+    400086: ToeL
+    400088: ToeR
+    400090: Trans
+    400092: Waist
+    400094: //RootNode
+    400096: WingL1
+    400098: WingL2
+    400100: WingL3
+    400102: WingL4
+    400104: WingR1
+    400106: WingR2
+    400108: WingR3
+    400110: WingR4
+    2100000: metal_waterdragon_001
+    4300000: GamemodelShape
+    9500000: //RootNode
+    13700000: GamemodelShape
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

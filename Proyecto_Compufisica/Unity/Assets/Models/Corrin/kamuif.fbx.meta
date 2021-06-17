@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: ace902deb2f7f724b997468593314524
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmL
+    100002: ArmR
+    100004: body_highShape
+    100006: body_lowShape
+    100008: Bust
+    100010: ClavicleC
+    100012: ClavicleL
+    100014: ClavicleR
+    100016: DownlipC
+    100018: DownlipC_offset
+    100020: DownlipL
+    100022: DownlipL_offset
+    100024: DownlipR
+    100026: DownlipR_offset
+    100028: Face
+    100030: FingerL10
+    100032: FingerL11
+    100034: FingerL12
+    100036: FingerL13
+    100038: FingerL20
+    100040: FingerL21
+    100042: FingerL22
+    100044: FingerL23
+    100046: FingerL30
+    100048: FingerL31
+    100050: FingerL32
+    100052: FingerL33
+    100054: FingerL40
+    100056: FingerL41
+    100058: FingerL42
+    100060: FingerL43
+    100062: FingerL51
+    100064: FingerL52
+    100066: FingerL53
+    100068: FingerR10
+    100070: FingerR11
+    100072: FingerR12
+    100074: FingerR13
+    100076: FingerR20
+    100078: FingerR21
+    100080: FingerR22
+    100082: FingerR23
+    100084: FingerR30
+    100086: FingerR31
+    100088: FingerR32
+    100090: FingerR33
+    100092: FingerR40
+    100094: FingerR41
+    100096: FingerR42
+    100098: FingerR43
+    100100: FingerR51
+    100102: FingerR52
+    100104: FingerR53
+    100106: FootL
+    100108: FootR
+    100110: GamemodelShape
+    100112: GamemodelShape 1
+    100114: H_ElbowL
+    100116: H_ElbowR
+    100118: H_KneeL
+    100120: H_KneeR
+    100122: H_LegL
+    100124: H_LegR
+    100126: H_SholderL
+    100128: H_SholderR
+    100130: hair_highShape
+    100132: hair_lowShape
+    100134: HandL
+    100136: HandR
+    100138: HaveL
+    100140: HaveR
+    100142: Head
+    100144: Hip
+    100146: Jaw
+    100148: Jaw_offset
+    100150: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100152: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100154: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100156: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100158: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100160: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100162: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100164: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100166: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100168: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100170: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100172: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100174: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100176: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100178: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100180: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100182: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100184: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100186: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100188: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100190: Kamui_Eye_VIS_O_OBJShape
+    100192: Kamui_Eye_VIS_O_OBJShape 1
+    100194: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100196: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100198: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100200: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100202: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100204: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100206: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape
+    100208: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape 1
+    100210: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100212: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100214: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100216: Kamui_Hair_VIS_O_OBJ_O_SORTEACHNODEShape
+    100218: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100220: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100222: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100224: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100226: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100228: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100230: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100232: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100234: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100236: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100238: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100240: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100242: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100244: kamui_LFoot_VIS_O_OBJShape
+    100246: kamui_LFoot_VIS_O_OBJShape 1
+    100248: kamui_LSpearfoot_VIS_O_OBJShape
+    100250: kamui_LSpearhand_VIS_O_OBJShape
+    100252: kamui_Mantle_VIS_O_OBJShape
+    100254: Kamui_Mask_VIS_O_OBJShape
+    100256: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100258: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100260: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100262: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100264: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100266: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100268: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100270: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100272: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100274: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100276: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100278: kamui_RFoot_VIS_O_OBJShape
+    100280: kamui_RFoot_VIS_O_OBJShape 1
+    100282: kamui_RSpearfoot_VIS_O_OBJShape
+    100284: kamui_RSpearhand_VIS_O_OBJShape
+    100286: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100288: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100290: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100292: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    100294: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    100296: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    100298: Kamui_Weapon_VIS_O_OBJShape
+    100300: Kamui_Weapon_VIS_O_OBJShape 1
+    100302: Kamui_Weapon_VIS_O_OBJShape 2
+    100304: Kamui_Wing_VIS_O_OBJShape
+    100306: //RootNode
+    100308: KneeL
+    100310: KneeR
+    100312: LegC
+    100314: LegL
+    100316: LegR
+    100318: Mask
+    100320: Mouth_group
+    100322: Neck
+    100324: Rot
+    100326: S_Hair1
+    100328: S_Hair2_null
+    100330: S_MantleC1
+    100332: S_MantleC2
+    100334: S_MantleC3
+    100336: S_MantleC4
+    100338: S_MantleC5_null
+    100340: S_MantleL1
+    100342: S_MantleL2
+    100344: S_MantleL3
+    100346: S_MantleL4
+    100348: S_MantleL5_null
+    100350: S_MantleR1
+    100352: S_MantleR2
+    100354: S_MantleR3
+    100356: S_MantleR4
+    100358: S_MantleR5_null
+    100360: S_ShirttailB1
+    100362: S_ShirttailB2
+    100364: S_ShirttailB3_null
+    100366: S_ShirttailBL1
+    100368: S_ShirttailBL2
+    100370: S_ShirttailBL3_null
+    100372: S_ShirttailF1
+    100374: S_ShirttailF2_null
+    100376: S_ShirttailFL1
+    100378: S_ShirttailFL2_null
+    100380: S_ShirttailL1
+    100382: S_ShirttailL2
+    100384: S_ShirttailL3_null
+    100386: ShoulderL
+    100388: ShoulderR
+    100390: SpearfootL
+    100392: SpearfootR
+    100394: SpearhandL
+    100396: SpearhandR
+    100398: Throw
+    100400: ToeL
+    100402: ToeR
+    100404: Tongue
+    100406: Tongue_offset
+    100408: Trans
+    100410: UplipC
+    100412: UplipC_offset
+    100414: UplipL1
+    100416: UplipL1_offset
+    100418: UplipL2
+    100420: UplipL2_offset
+    100422: UplipR1
+    100424: UplipR1_offset
+    100426: UplipR2
+    100428: UplipR2_offset
+    100430: Waist
+    100432: WingL1
+    100434: WingL2
+    100436: WingL3
+    100438: WingL4
+    100440: WingR1
+    100442: WingR2
+    100444: WingR3
+    100446: WingR4
+    400000: ArmL
+    400002: ArmR
+    400004: body_highShape
+    400006: body_lowShape
+    400008: Bust
+    400010: ClavicleC
+    400012: ClavicleL
+    400014: ClavicleR
+    400016: DownlipC
+    400018: DownlipC_offset
+    400020: DownlipL
+    400022: DownlipL_offset
+    400024: DownlipR
+    400026: DownlipR_offset
+    400028: Face
+    400030: FingerL10
+    400032: FingerL11
+    400034: FingerL12
+    400036: FingerL13
+    400038: FingerL20
+    400040: FingerL21
+    400042: FingerL22
+    400044: FingerL23
+    400046: FingerL30
+    400048: FingerL31
+    400050: FingerL32
+    400052: FingerL33
+    400054: FingerL40
+    400056: FingerL41
+    400058: FingerL42
+    400060: FingerL43
+    400062: FingerL51
+    400064: FingerL52
+    400066: FingerL53
+    400068: FingerR10
+    400070: FingerR11
+    400072: FingerR12
+    400074: FingerR13
+    400076: FingerR20
+    400078: FingerR21
+    400080: FingerR22
+    400082: FingerR23
+    400084: FingerR30
+    400086: FingerR31
+    400088: FingerR32
+    400090: FingerR33
+    400092: FingerR40
+    400094: FingerR41
+    400096: FingerR42
+    400098: FingerR43
+    400100: FingerR51
+    400102: FingerR52
+    400104: FingerR53
+    400106: FootL
+    400108: FootR
+    400110: GamemodelShape
+    400112: GamemodelShape 1
+    400114: H_ElbowL
+    400116: H_ElbowR
+    400118: H_KneeL
+    400120: H_KneeR
+    400122: H_LegL
+    400124: H_LegR
+    400126: H_SholderL
+    400128: H_SholderR
+    400130: hair_highShape
+    400132: hair_lowShape
+    400134: HandL
+    400136: HandR
+    400138: HaveL
+    400140: HaveR
+    400142: Head
+    400144: Hip
+    400146: Jaw
+    400148: Jaw_offset
+    400150: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400152: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400154: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400156: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400158: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400160: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400162: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400164: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400166: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400168: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400170: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400172: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400174: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400176: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400178: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400180: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400182: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400184: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400186: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400188: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400190: Kamui_Eye_VIS_O_OBJShape
+    400192: Kamui_Eye_VIS_O_OBJShape 1
+    400194: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400196: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400198: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400200: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400202: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400204: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400206: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape
+    400208: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape 1
+    400210: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400212: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400214: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400216: Kamui_Hair_VIS_O_OBJ_O_SORTEACHNODEShape
+    400218: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400220: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400222: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400224: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400226: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400228: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400230: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400232: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400234: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400236: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400238: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400240: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400242: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400244: kamui_LFoot_VIS_O_OBJShape
+    400246: kamui_LFoot_VIS_O_OBJShape 1
+    400248: kamui_LSpearfoot_VIS_O_OBJShape
+    400250: kamui_LSpearhand_VIS_O_OBJShape
+    400252: kamui_Mantle_VIS_O_OBJShape
+    400254: Kamui_Mask_VIS_O_OBJShape
+    400256: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400258: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400260: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400262: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400264: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400266: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400268: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400270: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400272: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400274: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400276: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400278: kamui_RFoot_VIS_O_OBJShape
+    400280: kamui_RFoot_VIS_O_OBJShape 1
+    400282: kamui_RSpearfoot_VIS_O_OBJShape
+    400284: kamui_RSpearhand_VIS_O_OBJShape
+    400286: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400288: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400290: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400292: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    400294: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    400296: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    400298: Kamui_Weapon_VIS_O_OBJShape
+    400300: Kamui_Weapon_VIS_O_OBJShape 1
+    400302: Kamui_Weapon_VIS_O_OBJShape 2
+    400304: Kamui_Wing_VIS_O_OBJShape
+    400306: //RootNode
+    400308: KneeL
+    400310: KneeR
+    400312: LegC
+    400314: LegL
+    400316: LegR
+    400318: Mask
+    400320: Mouth_group
+    400322: Neck
+    400324: Rot
+    400326: S_Hair1
+    400328: S_Hair2_null
+    400330: S_MantleC1
+    400332: S_MantleC2
+    400334: S_MantleC3
+    400336: S_MantleC4
+    400338: S_MantleC5_null
+    400340: S_MantleL1
+    400342: S_MantleL2
+    400344: S_MantleL3
+    400346: S_MantleL4
+    400348: S_MantleL5_null
+    400350: S_MantleR1
+    400352: S_MantleR2
+    400354: S_MantleR3
+    400356: S_MantleR4
+    400358: S_MantleR5_null
+    400360: S_ShirttailB1
+    400362: S_ShirttailB2
+    400364: S_ShirttailB3_null
+    400366: S_ShirttailBL1
+    400368: S_ShirttailBL2
+    400370: S_ShirttailBL3_null
+    400372: S_ShirttailF1
+    400374: S_ShirttailF2_null
+    400376: S_ShirttailFL1
+    400378: S_ShirttailFL2_null
+    400380: S_ShirttailL1
+    400382: S_ShirttailL2
+    400384: S_ShirttailL3_null
+    400386: ShoulderL
+    400388: ShoulderR
+    400390: SpearfootL
+    400392: SpearfootR
+    400394: SpearhandL
+    400396: SpearhandR
+    400398: Throw
+    400400: ToeL
+    400402: ToeR
+    400404: Tongue
+    400406: Tongue_offset
+    400408: Trans
+    400410: UplipC
+    400412: UplipC_offset
+    400414: UplipL1
+    400416: UplipL1_offset
+    400418: UplipL2
+    400420: UplipL2_offset
+    400422: UplipR1
+    400424: UplipR1_offset
+    400426: UplipR2
+    400428: UplipR2_offset
+    400430: Waist
+    400432: WingL1
+    400434: WingL2
+    400436: WingL3
+    400438: WingL4
+    400440: WingR1
+    400442: WingR2
+    400444: WingR3
+    400446: WingR4
+    2100000: def_kamui_001
+    2100002: skin_kamui_001
+    2100004: def_sword_001
+    2100006: def_sword_002
+    2100008: def_sword_003
+    2100010: EyeL
+    2100012: EyeR
+    2100014: def_wing_001
+    2100016: def_dragonhaed_001
+    2100018: metal_spearhand_001
+    2100020: def_hadasi_001
+    2100022: alp_kamui_001
+    2100024: alp_kamui_002
+    4300000: GamemodelShape
+    4300002: GamemodelShape
+    4300004: body_highShape
+    4300006: body_lowShape
+    4300008: Kamui_Weapon_VIS_O_OBJShape
+    4300010: Kamui_Weapon_VIS_O_OBJShape
+    4300012: Kamui_Weapon_VIS_O_OBJShape
+    4300014: Kamui_Eye_VIS_O_OBJShape
+    4300016: Kamui_Eye_VIS_O_OBJShape
+    4300018: Kamui_Wing_VIS_O_OBJShape
+    4300020: Kamui_Mask_VIS_O_OBJShape
+    4300022: kamui_LSpearhand_VIS_O_OBJShape
+    4300024: kamui_RSpearhand_VIS_O_OBJShape
+    4300026: kamui_LSpearfoot_VIS_O_OBJShape
+    4300028: kamui_RSpearfoot_VIS_O_OBJShape
+    4300030: kamui_RFoot_VIS_O_OBJShape
+    4300032: kamui_RFoot_VIS_O_OBJShape
+    4300034: kamui_LFoot_VIS_O_OBJShape
+    4300036: kamui_LFoot_VIS_O_OBJShape
+    4300038: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300040: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300042: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300044: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300046: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300048: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300050: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300052: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300054: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300056: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300058: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300060: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300062: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300064: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300066: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300068: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300070: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300072: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300074: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300076: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300078: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300080: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300082: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300084: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300086: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300088: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300090: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300092: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300094: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300096: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300098: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300100: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300102: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300104: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300106: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300108: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300110: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300112: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300114: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300116: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300118: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300120: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300122: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300124: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300126: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300128: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300130: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300132: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300134: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300136: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300138: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300140: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300142: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300144: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300146: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300148: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300150: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300152: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300154: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    4300156: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape
+    4300158: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape
+    4300160: hair_highShape
+    4300162: Kamui_Hair_VIS_O_OBJ_O_SORTEACHNODEShape
+    4300164: kamui_Mantle_VIS_O_OBJShape
+    4300166: hair_lowShape
+    9500000: //RootNode
+    13700000: body_highShape
+    13700002: body_lowShape
+    13700004: GamemodelShape
+    13700006: GamemodelShape 1
+    13700008: hair_highShape
+    13700010: hair_lowShape
+    13700012: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700014: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700016: Kamui_Attack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700018: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700020: Kamui_Blink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700022: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700024: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700026: Kamui_Bound_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700028: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700030: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700032: Kamui_Capture_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700034: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700036: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700038: Kamui_DamageFlyFront_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700040: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700042: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700044: Kamui_Down_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700046: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700048: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700050: Kamui_Escape_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700052: Kamui_Eye_VIS_O_OBJShape
+    13700054: Kamui_Eye_VIS_O_OBJShape 1
+    13700056: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700058: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700060: Kamui_FaceN_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700062: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700064: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700066: Kamui_Final_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700068: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape
+    13700070: Kamui_FrontHair_VIS_O_OBJ_O_SORTEACHNODEShape 1
+    13700072: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700074: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700076: Kamui_Furafura_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700078: Kamui_Hair_VIS_O_OBJ_O_SORTEACHNODEShape
+    13700080: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700082: Kamui_Halfblink1_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700084: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700086: Kamui_Halfblink2_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700088: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700090: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700092: Kamui_HeavyAttack_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700094: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700096: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700098: Kamui_HeavyOuch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700100: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700102: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700104: Kamui_Hot_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700106: kamui_LFoot_VIS_O_OBJShape
+    13700108: kamui_LFoot_VIS_O_OBJShape 1
+    13700110: kamui_LSpearfoot_VIS_O_OBJShape
+    13700112: kamui_LSpearhand_VIS_O_OBJShape
+    13700114: kamui_Mantle_VIS_O_OBJShape
+    13700116: Kamui_Mask_VIS_O_OBJShape
+    13700118: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700120: Kamui_Openblink_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700122: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700124: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700126: Kamui_Ouch_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700128: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700130: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700132: Kamui_PatternA_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700134: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700136: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700138: Kamui_Result_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700140: kamui_RFoot_VIS_O_OBJShape
+    13700142: kamui_RFoot_VIS_O_OBJShape 1
+    13700144: kamui_RSpearfoot_VIS_O_OBJShape
+    13700146: kamui_RSpearhand_VIS_O_OBJShape
+    13700148: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700150: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700152: Kamui_StepPose_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700154: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape
+    13700156: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 1
+    13700158: Kamui_Talk_VIS_O_OBJ_O_NOSORT_FAR_O_SORTEACHNODEShape 2
+    13700160: Kamui_Weapon_VIS_O_OBJShape
+    13700162: Kamui_Weapon_VIS_O_OBJShape 1
+    13700164: Kamui_Weapon_VIS_O_OBJShape 2
+    13700166: Kamui_Wing_VIS_O_OBJShape
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

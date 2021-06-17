@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 7eb99f5b5cc9fc5499389b9db7af88d5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmL
+    100002: ArmR
+    100004: arrow
+    100006: Bust
+    100008: ClavicleC
+    100010: ClavicleL
+    100012: ClavicleR
+    100014: EarL
+    100016: EarR
+    100018: emptymark_VIS_O_OBJShape
+    100020: EnvironmentAmbientLight
+    100022: FingerL10
+    100024: FingerL11
+    100026: FingerL12
+    100028: FingerL13
+    100030: FingerL20
+    100032: FingerL21
+    100034: FingerL22
+    100036: FingerL23
+    100038: FingerL30
+    100040: FingerL31
+    100042: FingerL32
+    100044: FingerL33
+    100046: FingerL40
+    100048: FingerL41
+    100050: FingerL42
+    100052: FingerL43
+    100054: FingerL51
+    100056: FingerL52
+    100058: FingerL53
+    100060: FingerR10
+    100062: FingerR11
+    100064: FingerR12
+    100066: FingerR13
+    100068: FingerR20
+    100070: FingerR21
+    100072: FingerR22
+    100074: FingerR23
+    100076: FingerR30
+    100078: FingerR31
+    100080: FingerR32
+    100082: FingerR33
+    100084: FingerR40
+    100086: FingerR41
+    100088: FingerR42
+    100090: FingerR43
+    100092: FingerR51
+    100094: FingerR52
+    100096: FingerR53
+    100098: FootL
+    100100: FootR
+    100102: Foreend
+    100104: GamemodelShape
+    100106: GamemodelShape 1
+    100108: GamemodelShape 2
+    100110: GamemodelShape 3
+    100112: GamemodelShape 4
+    100114: GamemodelShape 5
+    100116: H_LegL
+    100118: H_LegR
+    100120: HairB1
+    100122: HairB2
+    100124: HandL
+    100126: HandR
+    100128: HaveL
+    100130: HaveR
+    100132: Head
+    100134: Hip
+    100136: InkGunShape
+    100138: inkling_Blink_Attack_VIS_O_OBJShape
+    100140: inkling_Blink_Attack_VIS_O_OBJShape 1
+    100142: inkling_Blink_Bound_VIS_O_OBJShape
+    100144: inkling_Blink_Bound_VIS_O_OBJShape 1
+    100146: inkling_Blink_Capture_VIS_O_OBJShape
+    100148: inkling_Blink_Capture_VIS_O_OBJShape 1
+    100150: inkling_Blink_Catch_VIS_O_OBJShape
+    100152: inkling_Blink_Catch_VIS_O_OBJShape 1
+    100154: inkling_Blink_DamageFlyFront_VIS_O_OBJShape
+    100156: inkling_Blink_DamageFlyFront_VIS_O_OBJShape 1
+    100158: inkling_Blink_Down_VIS_O_OBJShape
+    100160: inkling_Blink_Down_VIS_O_OBJShape 1
+    100162: inkling_Blink_Escape_VIS_O_OBJShape
+    100164: inkling_Blink_Escape_VIS_O_OBJShape 1
+    100166: inkling_Blink_Furafura_VIS_O_OBJShape
+    100168: inkling_Blink_Furafura_VIS_O_OBJShape 1
+    100170: inkling_Blink_HeavyAttack_VIS_O_OBJShape
+    100172: inkling_Blink_HeavyAttack_VIS_O_OBJShape 1
+    100174: inkling_Blink_HeavyOuch_VIS_O_OBJShape
+    100176: inkling_Blink_HeavyOuch_VIS_O_OBJShape 1
+    100178: inkling_Blink_HeavyyHit_VIS_O_OBJShape
+    100180: inkling_Blink_HeavyyHit_VIS_O_OBJShape 1
+    100182: inkling_Blink_Hot_VIS_O_OBJShape
+    100184: inkling_Blink_Hot_VIS_O_OBJShape 1
+    100186: inkling_Blink_Ottotto_VIS_O_OBJShape
+    100188: inkling_Blink_Ottotto_VIS_O_OBJShape 1
+    100190: inkling_Blink_Ouch_VIS_O_OBJShape
+    100192: inkling_Blink_Ouch_VIS_O_OBJShape 1
+    100194: inkling_Blink_PatternB_VIS_O_OBJShape
+    100196: inkling_Blink_PatternB_VIS_O_OBJShape 1
+    100198: inkling_Blink_PatternC2_VIS_O_OBJShape
+    100200: inkling_Blink_PatternC2_VIS_O_OBJShape 1
+    100202: inkling_Blink_PatternC3_VIS_O_OBJShape
+    100204: inkling_Blink_PatternC3_VIS_O_OBJShape 1
+    100206: inkling_Blink_PatternC_VIS_O_OBJShape
+    100208: inkling_Blink_PatternC_VIS_O_OBJShape 1
+    100210: inkling_Blink_Talk_VIS_O_OBJShape
+    100212: inkling_Blink_Talk_VIS_O_OBJShape 1
+    100214: inkling_Blink_VIS_O_OBJShape
+    100216: inkling_Blink_VIS_O_OBJShape 1
+    100218: //RootNode
+    100220: inkling_eye_HeavyHit_VIS_O_OBJShape
+    100222: inkling_eye_HeavyHit_VIS_O_OBJShape 1
+    100224: inkling_eyeL_VIS_O_OBJShape
+    100226: inkling_eyeR_VIS_O_OBJShape
+    100228: inkling_faceN_Mouth_VIS_O_OBJShape
+    100230: inkling_Harfblink_VIS_O_OBJShape
+    100232: inkling_Harfblink_VIS_O_OBJShape 1
+    100234: inkling_Hot_VIS_O_OBJShape
+    100236: inkling_Mouth_Attack_VIS_O_OBJShape
+    100238: inkling_Mouth_Catch_VIS_O_OBJShape
+    100240: inkling_Mouth_Down_VIS_O_OBJShape
+    100242: inkling_Mouth_Escape_VIS_O_OBJShape
+    100244: inkling_Mouth_Furafura_VIS_O_OBJShape
+    100246: inkling_Mouth_HeavyAttack_VIS_O_OBJShape
+    100248: inkling_Mouth_HeavyyHit_VIS_O_OBJShape
+    100250: inkling_Mouth_Ottotto_VIS_O_OBJShape
+    100252: inkling_Mouth_Ouch_VIS_O_OBJShape
+    100254: inkling_Mouth_PatternC_VIS_O_OBJShape
+    100256: inkling_Mouth_Talk_VIS_O_OBJShape
+    100258: inkling_Mouth_VoiceB_VIS_O_OBJShape
+    100260: inkling_Openblink_VIS_O_OBJShape
+    100262: inkling_Openblink_VIS_O_OBJShape 1
+    100264: KneeL
+    100266: KneeR
+    100268: LegC
+    100270: LegL
+    100272: LegR
+    100274: measure_VIS_O_OBJShape
+    100276: Muzzle
+    100278: Neck
+    100280: Ponytail
+    100282: rigidShape
+    100284: Rot
+    100286: S_PonytailD1
+    100288: S_PonytailD2
+    100290: S_PonytailD3_null
+    100292: S_PonytailU1
+    100294: S_PonytailU2
+    100296: S_PonytailU3_null
+    100298: Shot
+    100300: ShoulderL
+    100302: ShoulderR
+    100304: subemptymark_VIS_O_OBJShape
+    100306: Tank
+    100308: Throw
+    100310: ToeL
+    100312: ToeR
+    100314: Trans
+    100316: VolumeBD
+    100318: VolumeBU
+    100320: VolumeFD
+    100322: VolumeFU
+    100324: VolumeLD
+    100326: VolumeLU
+    100328: VolumeRD
+    100330: VolumeRU
+    100332: Waist
+    400000: ArmL
+    400002: ArmR
+    400004: arrow
+    400006: Bust
+    400008: ClavicleC
+    400010: ClavicleL
+    400012: ClavicleR
+    400014: EarL
+    400016: EarR
+    400018: emptymark_VIS_O_OBJShape
+    400020: EnvironmentAmbientLight
+    400022: FingerL10
+    400024: FingerL11
+    400026: FingerL12
+    400028: FingerL13
+    400030: FingerL20
+    400032: FingerL21
+    400034: FingerL22
+    400036: FingerL23
+    400038: FingerL30
+    400040: FingerL31
+    400042: FingerL32
+    400044: FingerL33
+    400046: FingerL40
+    400048: FingerL41
+    400050: FingerL42
+    400052: FingerL43
+    400054: FingerL51
+    400056: FingerL52
+    400058: FingerL53
+    400060: FingerR10
+    400062: FingerR11
+    400064: FingerR12
+    400066: FingerR13
+    400068: FingerR20
+    400070: FingerR21
+    400072: FingerR22
+    400074: FingerR23
+    400076: FingerR30
+    400078: FingerR31
+    400080: FingerR32
+    400082: FingerR33
+    400084: FingerR40
+    400086: FingerR41
+    400088: FingerR42
+    400090: FingerR43
+    400092: FingerR51
+    400094: FingerR52
+    400096: FingerR53
+    400098: FootL
+    400100: FootR
+    400102: Foreend
+    400104: GamemodelShape
+    400106: GamemodelShape 1
+    400108: GamemodelShape 2
+    400110: GamemodelShape 3
+    400112: GamemodelShape 4
+    400114: GamemodelShape 5
+    400116: H_LegL
+    400118: H_LegR
+    400120: HairB1
+    400122: HairB2
+    400124: HandL
+    400126: HandR
+    400128: HaveL
+    400130: HaveR
+    400132: Head
+    400134: Hip
+    400136: InkGunShape
+    400138: inkling_Blink_Attack_VIS_O_OBJShape
+    400140: inkling_Blink_Attack_VIS_O_OBJShape 1
+    400142: inkling_Blink_Bound_VIS_O_OBJShape
+    400144: inkling_Blink_Bound_VIS_O_OBJShape 1
+    400146: inkling_Blink_Capture_VIS_O_OBJShape
+    400148: inkling_Blink_Capture_VIS_O_OBJShape 1
+    400150: inkling_Blink_Catch_VIS_O_OBJShape
+    400152: inkling_Blink_Catch_VIS_O_OBJShape 1
+    400154: inkling_Blink_DamageFlyFront_VIS_O_OBJShape
+    400156: inkling_Blink_DamageFlyFront_VIS_O_OBJShape 1
+    400158: inkling_Blink_Down_VIS_O_OBJShape
+    400160: inkling_Blink_Down_VIS_O_OBJShape 1
+    400162: inkling_Blink_Escape_VIS_O_OBJShape
+    400164: inkling_Blink_Escape_VIS_O_OBJShape 1
+    400166: inkling_Blink_Furafura_VIS_O_OBJShape
+    400168: inkling_Blink_Furafura_VIS_O_OBJShape 1
+    400170: inkling_Blink_HeavyAttack_VIS_O_OBJShape
+    400172: inkling_Blink_HeavyAttack_VIS_O_OBJShape 1
+    400174: inkling_Blink_HeavyOuch_VIS_O_OBJShape
+    400176: inkling_Blink_HeavyOuch_VIS_O_OBJShape 1
+    400178: inkling_Blink_HeavyyHit_VIS_O_OBJShape
+    400180: inkling_Blink_HeavyyHit_VIS_O_OBJShape 1
+    400182: inkling_Blink_Hot_VIS_O_OBJShape
+    400184: inkling_Blink_Hot_VIS_O_OBJShape 1
+    400186: inkling_Blink_Ottotto_VIS_O_OBJShape
+    400188: inkling_Blink_Ottotto_VIS_O_OBJShape 1
+    400190: inkling_Blink_Ouch_VIS_O_OBJShape
+    400192: inkling_Blink_Ouch_VIS_O_OBJShape 1
+    400194: inkling_Blink_PatternB_VIS_O_OBJShape
+    400196: inkling_Blink_PatternB_VIS_O_OBJShape 1
+    400198: inkling_Blink_PatternC2_VIS_O_OBJShape
+    400200: inkling_Blink_PatternC2_VIS_O_OBJShape 1
+    400202: inkling_Blink_PatternC3_VIS_O_OBJShape
+    400204: inkling_Blink_PatternC3_VIS_O_OBJShape 1
+    400206: inkling_Blink_PatternC_VIS_O_OBJShape
+    400208: inkling_Blink_PatternC_VIS_O_OBJShape 1
+    400210: inkling_Blink_Talk_VIS_O_OBJShape
+    400212: inkling_Blink_Talk_VIS_O_OBJShape 1
+    400214: inkling_Blink_VIS_O_OBJShape
+    400216: inkling_Blink_VIS_O_OBJShape 1
+    400218: //RootNode
+    400220: inkling_eye_HeavyHit_VIS_O_OBJShape
+    400222: inkling_eye_HeavyHit_VIS_O_OBJShape 1
+    400224: inkling_eyeL_VIS_O_OBJShape
+    400226: inkling_eyeR_VIS_O_OBJShape
+    400228: inkling_faceN_Mouth_VIS_O_OBJShape
+    400230: inkling_Harfblink_VIS_O_OBJShape
+    400232: inkling_Harfblink_VIS_O_OBJShape 1
+    400234: inkling_Hot_VIS_O_OBJShape
+    400236: inkling_Mouth_Attack_VIS_O_OBJShape
+    400238: inkling_Mouth_Catch_VIS_O_OBJShape
+    400240: inkling_Mouth_Down_VIS_O_OBJShape
+    400242: inkling_Mouth_Escape_VIS_O_OBJShape
+    400244: inkling_Mouth_Furafura_VIS_O_OBJShape
+    400246: inkling_Mouth_HeavyAttack_VIS_O_OBJShape
+    400248: inkling_Mouth_HeavyyHit_VIS_O_OBJShape
+    400250: inkling_Mouth_Ottotto_VIS_O_OBJShape
+    400252: inkling_Mouth_Ouch_VIS_O_OBJShape
+    400254: inkling_Mouth_PatternC_VIS_O_OBJShape
+    400256: inkling_Mouth_Talk_VIS_O_OBJShape
+    400258: inkling_Mouth_VoiceB_VIS_O_OBJShape
+    400260: inkling_Openblink_VIS_O_OBJShape
+    400262: inkling_Openblink_VIS_O_OBJShape 1
+    400264: KneeL
+    400266: KneeR
+    400268: LegC
+    400270: LegL
+    400272: LegR
+    400274: measure_VIS_O_OBJShape
+    400276: Muzzle
+    400278: Neck
+    400280: Ponytail
+    400282: rigidShape
+    400284: Rot
+    400286: S_PonytailD1
+    400288: S_PonytailD2
+    400290: S_PonytailD3_null
+    400292: S_PonytailU1
+    400294: S_PonytailU2
+    400296: S_PonytailU3_null
+    400298: Shot
+    400300: ShoulderL
+    400302: ShoulderR
+    400304: subemptymark_VIS_O_OBJShape
+    400306: Tank
+    400308: Throw
+    400310: ToeL
+    400312: ToeR
+    400314: Trans
+    400316: VolumeBD
+    400318: VolumeBU
+    400320: VolumeFD
+    400322: VolumeFU
+    400324: VolumeLD
+    400326: VolumeLU
+    400328: VolumeRD
+    400330: VolumeRU
+    400332: Waist
+    2100000: alp_inkling_boy_001
+    2100002: alp_inkling_boy_002
+    2100004: alp_inkling_boy_002punchThrough
+    2100006: def_inkling_boy_001
+    2100008: def_inkling_boy_002
+    2100010: skin_inkling_boy_001
+    2100012: EyeL
+    2100014: EyeR
+    2100016: alp_inkling_boy_001_blend
+    2100018: alp_inkling_boy_003InkEnpty
+    2100020: alp_inkling_boy_003SubInkEnpty
+    4300000: GamemodelShape
+    4300002: GamemodelShape
+    4300004: GamemodelShape
+    4300006: GamemodelShape
+    4300008: GamemodelShape
+    4300010: GamemodelShape
+    4300012: inkling_eyeL_VIS_O_OBJShape
+    4300014: inkling_eyeR_VIS_O_OBJShape
+    4300016: inkling_Openblink_VIS_O_OBJShape
+    4300018: inkling_Openblink_VIS_O_OBJShape
+    4300020: inkling_faceN_Mouth_VIS_O_OBJShape
+    4300022: inkling_Harfblink_VIS_O_OBJShape
+    4300024: inkling_Harfblink_VIS_O_OBJShape
+    4300026: inkling_Blink_VIS_O_OBJShape
+    4300028: inkling_Blink_VIS_O_OBJShape
+    4300030: inkling_Blink_Talk_VIS_O_OBJShape
+    4300032: inkling_Blink_Talk_VIS_O_OBJShape
+    4300034: inkling_Mouth_Talk_VIS_O_OBJShape
+    4300036: inkling_Blink_Ouch_VIS_O_OBJShape
+    4300038: inkling_Blink_Ouch_VIS_O_OBJShape
+    4300040: inkling_Mouth_Ouch_VIS_O_OBJShape
+    4300042: inkling_Blink_Down_VIS_O_OBJShape
+    4300044: inkling_Blink_Down_VIS_O_OBJShape
+    4300046: inkling_Mouth_Down_VIS_O_OBJShape
+    4300048: inkling_Blink_HeavyAttack_VIS_O_OBJShape
+    4300050: inkling_Blink_HeavyAttack_VIS_O_OBJShape
+    4300052: inkling_Mouth_HeavyAttack_VIS_O_OBJShape
+    4300054: inkling_Blink_Escape_VIS_O_OBJShape
+    4300056: inkling_Blink_Escape_VIS_O_OBJShape
+    4300058: inkling_Mouth_Escape_VIS_O_OBJShape
+    4300060: inkling_Blink_Attack_VIS_O_OBJShape
+    4300062: inkling_Blink_Attack_VIS_O_OBJShape
+    4300064: inkling_Mouth_Attack_VIS_O_OBJShape
+    4300066: inkling_Blink_Capture_VIS_O_OBJShape
+    4300068: inkling_Blink_Capture_VIS_O_OBJShape
+    4300070: inkling_eye_HeavyHit_VIS_O_OBJShape
+    4300072: inkling_eye_HeavyHit_VIS_O_OBJShape
+    4300074: inkling_Blink_HeavyyHit_VIS_O_OBJShape
+    4300076: inkling_Blink_HeavyyHit_VIS_O_OBJShape
+    4300078: inkling_Mouth_HeavyyHit_VIS_O_OBJShape
+    4300080: inkling_Blink_HeavyOuch_VIS_O_OBJShape
+    4300082: inkling_Blink_HeavyOuch_VIS_O_OBJShape
+    4300084: inkling_Blink_Ottotto_VIS_O_OBJShape
+    4300086: inkling_Blink_Ottotto_VIS_O_OBJShape
+    4300088: inkling_Mouth_Ottotto_VIS_O_OBJShape
+    4300090: inkling_Blink_Furafura_VIS_O_OBJShape
+    4300092: inkling_Blink_Furafura_VIS_O_OBJShape
+    4300094: inkling_Mouth_Furafura_VIS_O_OBJShape
+    4300096: inkling_Mouth_VoiceB_VIS_O_OBJShape
+    4300098: inkling_Blink_Catch_VIS_O_OBJShape
+    4300100: inkling_Blink_Catch_VIS_O_OBJShape
+    4300102: inkling_Mouth_Catch_VIS_O_OBJShape
+    4300104: inkling_Hot_VIS_O_OBJShape
+    4300106: inkling_Blink_Bound_VIS_O_OBJShape
+    4300108: inkling_Blink_Bound_VIS_O_OBJShape
+    4300110: inkling_Blink_DamageFlyFront_VIS_O_OBJShape
+    4300112: inkling_Blink_DamageFlyFront_VIS_O_OBJShape
+    4300114: inkling_Blink_PatternB_VIS_O_OBJShape
+    4300116: inkling_Blink_PatternB_VIS_O_OBJShape
+    4300118: inkling_Blink_PatternC_VIS_O_OBJShape
+    4300120: inkling_Blink_PatternC_VIS_O_OBJShape
+    4300122: inkling_Blink_PatternC2_VIS_O_OBJShape
+    4300124: inkling_Blink_PatternC2_VIS_O_OBJShape
+    4300126: inkling_Blink_PatternC3_VIS_O_OBJShape
+    4300128: inkling_Blink_PatternC3_VIS_O_OBJShape
+    4300130: inkling_Blink_Hot_VIS_O_OBJShape
+    4300132: inkling_Blink_Hot_VIS_O_OBJShape
+    4300134: inkling_Mouth_PatternC_VIS_O_OBJShape
+    4300136: InkGunShape
+    4300138: measure_VIS_O_OBJShape
+    4300140: emptymark_VIS_O_OBJShape
+    4300142: subemptymark_VIS_O_OBJShape
+    4300144: rigidShape
+    9500000: //RootNode
+    13700000: emptymark_VIS_O_OBJShape
+    13700002: GamemodelShape
+    13700004: GamemodelShape 1
+    13700006: GamemodelShape 2
+    13700008: GamemodelShape 3
+    13700010: GamemodelShape 4
+    13700012: GamemodelShape 5
+    13700014: InkGunShape
+    13700016: inkling_Blink_Attack_VIS_O_OBJShape
+    13700018: inkling_Blink_Attack_VIS_O_OBJShape 1
+    13700020: inkling_Blink_Bound_VIS_O_OBJShape
+    13700022: inkling_Blink_Bound_VIS_O_OBJShape 1
+    13700024: inkling_Blink_Capture_VIS_O_OBJShape
+    13700026: inkling_Blink_Capture_VIS_O_OBJShape 1
+    13700028: inkling_Blink_Catch_VIS_O_OBJShape
+    13700030: inkling_Blink_Catch_VIS_O_OBJShape 1
+    13700032: inkling_Blink_DamageFlyFront_VIS_O_OBJShape
+    13700034: inkling_Blink_DamageFlyFront_VIS_O_OBJShape 1
+    13700036: inkling_Blink_Down_VIS_O_OBJShape
+    13700038: inkling_Blink_Down_VIS_O_OBJShape 1
+    13700040: inkling_Blink_Escape_VIS_O_OBJShape
+    13700042: inkling_Blink_Escape_VIS_O_OBJShape 1
+    13700044: inkling_Blink_Furafura_VIS_O_OBJShape
+    13700046: inkling_Blink_Furafura_VIS_O_OBJShape 1
+    13700048: inkling_Blink_HeavyAttack_VIS_O_OBJShape
+    13700050: inkling_Blink_HeavyAttack_VIS_O_OBJShape 1
+    13700052: inkling_Blink_HeavyOuch_VIS_O_OBJShape
+    13700054: inkling_Blink_HeavyOuch_VIS_O_OBJShape 1
+    13700056: inkling_Blink_HeavyyHit_VIS_O_OBJShape
+    13700058: inkling_Blink_HeavyyHit_VIS_O_OBJShape 1
+    13700060: inkling_Blink_Hot_VIS_O_OBJShape
+    13700062: inkling_Blink_Hot_VIS_O_OBJShape 1
+    13700064: inkling_Blink_Ottotto_VIS_O_OBJShape
+    13700066: inkling_Blink_Ottotto_VIS_O_OBJShape 1
+    13700068: inkling_Blink_Ouch_VIS_O_OBJShape
+    13700070: inkling_Blink_Ouch_VIS_O_OBJShape 1
+    13700072: inkling_Blink_PatternB_VIS_O_OBJShape
+    13700074: inkling_Blink_PatternB_VIS_O_OBJShape 1
+    13700076: inkling_Blink_PatternC2_VIS_O_OBJShape
+    13700078: inkling_Blink_PatternC2_VIS_O_OBJShape 1
+    13700080: inkling_Blink_PatternC3_VIS_O_OBJShape
+    13700082: inkling_Blink_PatternC3_VIS_O_OBJShape 1
+    13700084: inkling_Blink_PatternC_VIS_O_OBJShape
+    13700086: inkling_Blink_PatternC_VIS_O_OBJShape 1
+    13700088: inkling_Blink_Talk_VIS_O_OBJShape
+    13700090: inkling_Blink_Talk_VIS_O_OBJShape 1
+    13700092: inkling_Blink_VIS_O_OBJShape
+    13700094: inkling_Blink_VIS_O_OBJShape 1
+    13700096: inkling_eye_HeavyHit_VIS_O_OBJShape
+    13700098: inkling_eye_HeavyHit_VIS_O_OBJShape 1
+    13700100: inkling_eyeL_VIS_O_OBJShape
+    13700102: inkling_eyeR_VIS_O_OBJShape
+    13700104: inkling_faceN_Mouth_VIS_O_OBJShape
+    13700106: inkling_Harfblink_VIS_O_OBJShape
+    13700108: inkling_Harfblink_VIS_O_OBJShape 1
+    13700110: inkling_Hot_VIS_O_OBJShape
+    13700112: inkling_Mouth_Attack_VIS_O_OBJShape
+    13700114: inkling_Mouth_Catch_VIS_O_OBJShape
+    13700116: inkling_Mouth_Down_VIS_O_OBJShape
+    13700118: inkling_Mouth_Escape_VIS_O_OBJShape
+    13700120: inkling_Mouth_Furafura_VIS_O_OBJShape
+    13700122: inkling_Mouth_HeavyAttack_VIS_O_OBJShape
+    13700124: inkling_Mouth_HeavyyHit_VIS_O_OBJShape
+    13700126: inkling_Mouth_Ottotto_VIS_O_OBJShape
+    13700128: inkling_Mouth_Ouch_VIS_O_OBJShape
+    13700130: inkling_Mouth_PatternC_VIS_O_OBJShape
+    13700132: inkling_Mouth_Talk_VIS_O_OBJShape
+    13700134: inkling_Mouth_VoiceB_VIS_O_OBJShape
+    13700136: inkling_Openblink_VIS_O_OBJShape
+    13700138: inkling_Openblink_VIS_O_OBJShape 1
+    13700140: measure_VIS_O_OBJShape
+    13700142: rigidShape
+    13700144: subemptymark_VIS_O_OBJShape
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeL
+    second: {fileID: 2100000, guid: e41dd6829a81eff48a63dbee4e00883a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeR
+    second: {fileID: 2100000, guid: 5c2415c698d6ba94dbcc0e25e52184ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alp_inkling_boy_001
+    second: {fileID: 2100000, guid: 41fcdc9c472ca2546b246410b32cff2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alp_inkling_boy_001_blend
+    second: {fileID: 2100000, guid: dc89e044b3014da43a1be62b215657b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alp_inkling_boy_002
+    second: {fileID: 2100000, guid: 882484465a8e85a449c9524ee21d9eec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alp_inkling_boy_002punchThrough
+    second: {fileID: 2100000, guid: 4954cd3713ba2f648b84210a1739d5e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alp_inkling_boy_003InkEnpty
+    second: {fileID: 2100000, guid: e61285972990c274199a2a094424db2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alp_inkling_boy_003SubInkEnpty
+    second: {fileID: 2100000, guid: f7752f842a2fcf2468fb3d50fb155fdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: def_inkling_boy_001
+    second: {fileID: 2100000, guid: c45cf5c309b0fd94a83aba6f0bea4581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: def_inkling_boy_002
+    second: {fileID: 2100000, guid: fb6fdf48d9988da418de799dc0eca9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin_inkling_boy_001
+    second: {fileID: 2100000, guid: 963a98806cd49fc43bd507d0ac6b38fc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

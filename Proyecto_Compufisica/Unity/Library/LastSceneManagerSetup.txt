@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Proyecto_compufisica.unity
+  isLoaded: 1
+  isActive: 1
