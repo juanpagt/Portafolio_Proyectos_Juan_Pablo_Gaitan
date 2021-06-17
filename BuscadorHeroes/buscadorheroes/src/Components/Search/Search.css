@@ -1,0 +1,23 @@
+.o-image{
+    border-radius: 5%;
+    width: 10rem;
+    height: 10rem;
+    padding: 4px;
+   
+}
+.o-heroe{
+   border-radius: 10px;
+   box-shadow: 0px 5px 10px rgb(110, 110, 110);
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background: white;
+   align-items: center;
+  
+}
+p{
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+}
