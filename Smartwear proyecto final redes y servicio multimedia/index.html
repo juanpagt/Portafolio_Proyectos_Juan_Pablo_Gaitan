@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwear</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div>
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4 ">SMARTWEAR</h1>
+            <p class="o-center lead ">Bienvenido a smartwear, el dispositivo de monitoreo de salud remoto, por favor
+                ingresa con tu usuario.</p>
+        </div>
+        <form class="col-8" action="validar.php" id='formulario' method="POST">
+            <div>
+                <label for="nombre">Usuario:</label><br>
+                <input type="text" name="login"><br>
+            </div>
+            <br> <br>
+            <div>
+                <label for="password">Contraseña:</label><br>
+                <input type="password" name="pass">
+            </div> <br> <br>
+            <input type="submit" value="Enviar"></input>
+
+        </form>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
